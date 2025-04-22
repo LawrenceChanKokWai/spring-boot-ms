@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc3384f-a383-4bce-8775-6d320c1a36e7" name="Changes" comment="" />
+    <list default="true" id="4fc3384f-a383-4bce-8775-6d320c1a36e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/CatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/TestCatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/TestcontainersConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -23,12 +34,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CatalogServiceApplicationTests.executor": "Run",
+    "Maven.spring-boot-ms [install].executor": "Run",
+    "Maven.spring-boot-ms [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CatalogServiceApplication.executor": "Run",
     "Spring Boot.TestCatalogServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/chankokwai/Documents/sprint-boot-ms",
     "node.js.detected.package.eslint": "true",
@@ -42,7 +58,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.TestCatalogServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CatalogServiceApplication">
+    <configuration name="CatalogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kokwai.catalogservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kokwai.catalogservice" />
+      <option name="MAIN_CLASS_NAME" value="com.kokwai.catalogservice.CatalogServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatalogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="catalog-service" />
@@ -67,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CatalogServiceApplicationTests" />
         <item itemvalue="Spring Boot.TestCatalogServiceApplication" />
       </list>
     </recent_temporary>
@@ -87,11 +119,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745324136537</updated>
-      <workItem from="1745324139278" duration="5132000" />
+      <workItem from="1745324139278" duration="10600000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
