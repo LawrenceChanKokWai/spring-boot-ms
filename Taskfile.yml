@@ -1,0 +1,53 @@
+version: '3'
+
+vars:
+  GOOS: "{{default OS .GOOS}}"
+  MVNW: '{{if eq .GOOS "windows"}}mvnw.cmd{{else}}./mvnw{{end}}'
+  DC_DIR: "deployment/docker-compose"
+  INFRA_DC_FILE: "{{.DC_DIR}}/infra.yml"
+
+tasks:
+  default:
+    cmds:
+      - task: test
+
+  test:
+    desc: "Run formatting and tests"
+    deps: [format]
+    cmds:
+      - "{{.MVNW}} clean verify"
+
+  format:
+    desc: "Auto-format code using Spotless"
+    cmds:
+      - "{{.MVNW}} spotless:apply"
+
+  build:
+    desc: "Build the project"
+    cmds:
+      - "{{.MVNW}} verify"
+
+  start_infra:
+    desc: "Start Docker infrastructure containers"
+    cmds:
+      - docker-compose -f "{{.INFRA_DC_FILE}}" up -d
+
+  stop_infra:
+    desc: "Stop and remove Docker infrastructure containers"
+    cmds:
+      - docker-compose -f "{{.INFRA_DC_FILE}}" stop
+      - docker-compose -f "{{.INFRA_DC_FILE}}" rm -f
+
+  restart_infra:
+    desc: "Restart Docker infrastructure containers"
+    cmds:
+      - task: stop_infra
+      - task: sleep
+      - task: start_infra
+
+  sleep:
+    desc: "Sleep between steps"
+    vars:
+      DURATION: '{{default 5 .DURATION}}'
+    cmds:
+      - "sleep {{.DURATION}}"
