@@ -34,7 +34,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CatalogServiceApplication.executor": "Run",
+    "Spring Boot.CatalogServiceApplication.executor": "Debug",
     "Spring Boot.TestCatalogServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -48,6 +48,11 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.CatalogServiceApplication">
@@ -111,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745324136537</updated>
-      <workItem from="1745324139278" duration="12723000" />
+      <workItem from="1745324139278" duration="14879000" />
     </task>
     <servers />
   </component>
