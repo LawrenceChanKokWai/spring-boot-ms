@@ -3,7 +3,6 @@ package com.kokwai.catalogservice.domain.product;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotEmpty;
-
 import java.math.BigDecimal;
 
 @Entity
@@ -89,5 +88,4 @@ class ProductEntity {
     public void setPrice(BigDecimal price) {
         this.price = price;
     }
-
 }

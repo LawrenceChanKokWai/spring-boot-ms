@@ -1,17 +1,16 @@
 package com.kokwai.catalogservice.web.controller;
 
-import com.kokwai.catalogservice.AbstractIT;
-import com.kokwai.catalogservice.domain.product.Product;
-import io.restassured.http.ContentType;
-import org.junit.jupiter.api.Test;
-import org.springframework.test.context.jdbc.Sql;
-
-import java.math.BigDecimal;
-
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
+
+import com.kokwai.catalogservice.AbstractIT;
+import com.kokwai.catalogservice.domain.product.Product;
+import io.restassured.http.ContentType;
+import java.math.BigDecimal;
+import org.junit.jupiter.api.Test;
+import org.springframework.test.context.jdbc.Sql;
 
 @Sql("/test-data.sql")
 class ProductControllerTest extends AbstractIT {
@@ -40,18 +39,19 @@ class ProductControllerTest extends AbstractIT {
                 .then()
                 .statusCode(200)
                 .assertThat()
-                .extract().body()
+                .extract()
+                .body()
                 .as(Product.class);
 
         assertThat(product.code()).isEqualTo("B100");
         assertThat(product.name()).isEqualTo("The Self-Taught Computer Scientist");
-        assertThat(product.description()).isEqualTo(
-                "It’s also a sequel to The Self-Taught Programmer. " +
-                        "Both of these are excellent introductions to the discipline by an expert " +
-                        "programmer and computer scientist. In this book, you’ll learn more about " +
-                        "not only being a better programmer but also about how to ace programming " +
-                        "job interviews. This book is perfect for those preparing to apply for jobs " +
-                        "in the field, especially those who are moving from college to the workforce.");
+        assertThat(product.description())
+                .isEqualTo("It’s also a sequel to The Self-Taught Programmer. "
+                        + "Both of these are excellent introductions to the discipline by an expert "
+                        + "programmer and computer scientist. In this book, you’ll learn more about "
+                        + "not only being a better programmer but also about how to ace programming "
+                        + "job interviews. This book is perfect for those preparing to apply for jobs "
+                        + "in the field, especially those who are moving from college to the workforce.");
         assertThat(product.price()).isEqualTo(new BigDecimal("18.52"));
     }
 

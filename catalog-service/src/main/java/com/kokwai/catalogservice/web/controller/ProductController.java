@@ -1,12 +1,12 @@
 package com.kokwai.catalogservice.web.controller;
 
+import static com.kokwai.catalogservice.domain.product.ProductNotFoundException.exForCode;
+
 import com.kokwai.catalogservice.domain.product.PageResponse;
 import com.kokwai.catalogservice.domain.product.Product;
 import com.kokwai.catalogservice.domain.product.ProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import static com.kokwai.catalogservice.domain.product.ProductNotFoundException.exForCode;
 
 @RestController
 @RequestMapping("/api/products")
@@ -24,9 +24,6 @@ class ProductController {
 
     @GetMapping("/{code}")
     ResponseEntity<Product> getProduct(@PathVariable String code) {
-        return productService.getProductByCode(code)
-                .map(ResponseEntity::ok)
-                .orElseThrow(() -> exForCode(code));
+        return productService.getProductByCode(code).map(ResponseEntity::ok).orElseThrow(() -> exForCode(code));
     }
-
 }
