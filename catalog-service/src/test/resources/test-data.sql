@@ -1,0 +1,7 @@
+truncate table products;
+
+insert into products(code, name, description, image_url, price) values
+    ('B100', 'The Self-Taught Computer Scientist', 'It’s also a sequel to The Self-Taught Programmer. Both of these are excellent introductions to the discipline by an expert programmer and computer scientist. In this book, you’ll learn more about not only being a better programmer but also about how to ace programming job interviews. This book is perfect for those preparing to apply for jobs in the field, especially those who are moving from college to the workforce.', 'https://cdn.hackr.io/uploads/posts/attachments/1643121580UjB2Qoiq5R.webp', 18.52),
+    ('B200', 'The Computer Science Book', 'The Computer Science Book is a perfect review for those who have finished college, a great introduction for those who are just starting college, and a supplement for those beginning a computer science career. This lengthy book covers countless computer science topics, from databases to operating systems.', 'https://cdn.hackr.io/uploads/posts/attachments/16431216080SuUqgLuUG.webp', 32.00),
+    ('B300', 'The Chip', 'No discipline is complete without an overview of history. This book tells the story of Jack Kilby and Robert Noyce, and their discovery of the silicon microchip — the culmination of their pursuit to make computers smaller and faster.', 'https://cdn.hackr.io/uploads/posts/attachments/16431216385E6jte9xr8.webp', 42.10)
+;

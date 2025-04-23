@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc3384f-a383-4bce-8775-6d320c1a36e7" name="Changes" comment="" />
+    <list default="true" id="4fc3384f-a383-4bce-8775-6d320c1a36e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/CatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,9 +29,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2w5Ggt6f8JW0Zy79We4E3ZZf2xa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CatalogServiceApplicationTests.executor": "Run",
+    "JUnit.ProductControllerTest.executor": "Run",
     "Maven.spring-boot-ms [install].executor": "Run",
     "Maven.spring-boot-ms [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -34,8 +48,11 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CatalogServiceApplication.executor": "Debug",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CatalogServiceApplication.executor": "Run",
     "Spring Boot.TestCatalogServiceApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/chankokwai/Documents/sprint-boot-ms",
@@ -55,7 +72,15 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.CatalogServiceApplication">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kokwai.catalogservice.web.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductControllerTest">
     <configuration name="CatalogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <extension name="coverage">
@@ -66,6 +91,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kokwai.catalogservice" />
       <option name="MAIN_CLASS_NAME" value="com.kokwai.catalogservice.CatalogServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kokwai.catalogservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kokwai.catalogservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.kokwai.catalogservice.web.controller.ProductControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductControllerTest" />
         <item itemvalue="JUnit.CatalogServiceApplicationTests" />
         <item itemvalue="Spring Boot.TestCatalogServiceApplication" />
       </list>
@@ -116,7 +157,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745324136537</updated>
-      <workItem from="1745324139278" duration="14879000" />
+      <workItem from="1745324139278" duration="15105000" />
+      <workItem from="1745374680494" duration="12454000" />
     </task>
     <servers />
   </component>
