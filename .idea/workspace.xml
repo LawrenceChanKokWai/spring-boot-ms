@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc3384f-a383-4bce-8775-6d320c1a36e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ApplicationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/PageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/PageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/domain/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/web/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/kokwai/catalogservice/web/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/AbstractIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/AbstractIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/web/controller/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/kokwai/catalogservice/web/controller/ProductControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4fc3384f-a383-4bce-8775-6d320c1a36e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745324136537</updated>
       <workItem from="1745324139278" duration="15105000" />
-      <workItem from="1745374680494" duration="12685000" />
+      <workItem from="1745374680494" duration="16885000" />
     </task>
     <servers />
   </component>
