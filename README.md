@@ -19,7 +19,7 @@ graph TD
 ### Local Development Setup
 - Java 21
 - [SDKMAN](https://sdkman.io) for managing Java & maven version
-- Github & Git actions
+- Github & [Git actions](https://docs.github.com/en/actions/writing-workflows)
 - Docker & docker-compose
 - Postgresql
 - [taskfile](https://taskfile.dev) for task running
